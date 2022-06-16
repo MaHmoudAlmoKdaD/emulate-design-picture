@@ -1,0 +1,71 @@
+.ninth .header {
+    display: flex;
+    justify-content: center;
+}
+
+.ninth .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ninth .contact-info .info {
+    width: 35%;
+}
+
+
+.ninth .contact-info .contact {
+    width: 50%;
+}
+
+.ninth .contact-info .contact form textarea {
+    width: 100%;
+    margin-top: 10px;
+    height: 100px;
+    box-shadow: 0px 0px 8px 0px rgba(176, 176, 176, 0.75);
+    border-radius: 5px;
+    border: none;
+}
+
+.ninth .contact-info .contact form textarea::placeholder {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(107, 107, 107, 0.75);
+}
+
+.ninth .go-to-top {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(107, 107, 107, 0.75);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    left: 100%;
+    cursor: pointer;
+}
+
+.ninth .go-to-top:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.ninth .go-to-top i {
+    color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+    .ninth .contact-info {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }.ninth .contact-info .info {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .ninth .contact-info .contact {
+        width: 100%;
+    }
+}

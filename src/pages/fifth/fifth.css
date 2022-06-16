@@ -1,0 +1,37 @@
+.five {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(51, 0, 255, 1) 1%, rgba(126, 41, 222, 1) 62%);
+    color: #fff;
+    padding: 80px 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.five .widgets {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.widgets .greater-than-sign {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    .five {
+        height: auto;
+        padding: 80px 50px;
+        margin-top: 70px;
+        flex-direction: column;
+    }
+
+    .widgets .greater-than-sign {
+        display: none;
+    }
+}

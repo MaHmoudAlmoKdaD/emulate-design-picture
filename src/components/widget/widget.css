@@ -1,0 +1,16 @@
+.widget {
+    padding:  20px;
+    text-align: center;
+    width: 17em;
+}
+
+
+.widget .icon-wrapper{
+    font-size: 60px;
+    color: rgb(172, 172, 172);
+}
+
+.widget .icon-wrapper img{
+    width: 60px;
+    height: 60px;
+}

@@ -1,0 +1,11 @@
+.list-item{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.list-item .icon-wrapper img{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}

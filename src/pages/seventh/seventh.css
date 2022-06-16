@@ -1,0 +1,66 @@
+.seventh {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 30, 0.7) url('./../../images/download-bg.jpeg');
+    background-blend-mode: darken;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 25%, 100% 26%, 100% 81%, 0 81%);
+    position: relative;
+    top: -55%;
+}
+
+.seventh .wrapper-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.seventh .images {
+    margin-top: 20px;
+}
+
+.seventh .images img {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.seventh .images img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.seventh .wrapper-content p {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .seventh {
+        clip-path: polygon(0 7%, 100% 7%, 100% 94%, 0 93%);
+    }
+
+    .seventh .images {
+        display: flex;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .seventh {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .seventh .images img {
+        width: 90px;
+        height: 40px;
+    }
+
+
+}

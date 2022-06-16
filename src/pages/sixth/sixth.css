@@ -1,0 +1,35 @@
+.sixth{
+    padding: 30px 0;
+    background-color: #F6F9FE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sixth .cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .sixth{
+        padding: 30px 0;
+        background-color: #F6F9FE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .sixth .cards{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,47 @@
+.fourth {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fourth .description{
+    width: 45%;
+}
+
+.fourth .description .header {
+    font-size: 50px;
+}
+
+.fourth .image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .fourth {        
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .fourth .description{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .fourth .description .header {
+        font-size: 30px;
+    }
+    .fourth .image{
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .fourth .image img{
+        width: 30vw;
+        height: 45vh;
+        
+    } 
+}

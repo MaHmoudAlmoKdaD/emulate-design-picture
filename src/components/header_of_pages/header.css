@@ -1,0 +1,26 @@
+.wrapper-header {
+    width: 70%;
+    text-align: center;
+}
+
+.wrapper-header .header {
+    font-size: 50px;
+}
+
+hr {
+    width: 60px;
+    margin: 0 auto;
+    background-color: #6F29DE;
+    border: none;
+    height: 1.5px;
+}
+
+.wrapper-header .description {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .wrapper-header .header {
+        font-size: 30px;
+    }
+}

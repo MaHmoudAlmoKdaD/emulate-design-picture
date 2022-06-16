@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 5em auto;
+}
+
+#paragraph {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(75, 73, 73);
+}
+
+.white-color {
+    color: #fff;
+}
